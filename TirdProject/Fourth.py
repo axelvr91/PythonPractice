@@ -13,7 +13,9 @@
 #print("Student Grades:", student_Grades02)
 
 
-#Ranges
+
+
+#Range function to create a list of numbers from 1 to 10
 #numbers=list(range(1,11))
 #print("Numbers from 1 to 10:", numbers)
 
