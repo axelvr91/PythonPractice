@@ -1,0 +1,2 @@
+si no se le agrega un return a la funcion sale none, lo cual significa 
+que esta vacio
