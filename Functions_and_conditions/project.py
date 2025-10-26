@@ -34,5 +34,27 @@ def converter(onz):
 print(converter(5))
 
 #*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-#
+#conditionals#
+
+def que_EsMayor ( a,b):
+    print("Ingrese dos numeros para comparar cual es mayor")
+    print("Ingrese el primer numero:")
+    a=int(input())
+    print("Ingrese el segundo numero:")
+    b=int(input())
+
+    resultado=0
+    if a>b:
+    
+        resultado=a
+        return resultado
+    
+    else:
+        resultado=b
+        return resultado
+    
+print("El numero mayor es:",que_EsMayor(0,0))
+
+    
 
 
