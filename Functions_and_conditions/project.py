@@ -55,6 +55,32 @@ def que_EsMayor ( a,b):
     
 print("El numero mayor es:",que_EsMayor(0,0))
 
+
+
+#*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-#
+
+def calculate(Tempeture):
+    if Tempeture>7:
+        return "Warm"
+    else:
+        return "Cold"
+
+print("The temperature is:",calculate(5))
+
+#*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-#
+
+def letras(palabra):
+    if len(palabra)<8:
+        return False
+    else:
+        return True
+    
+print(letras("HolaMundo"))
+
+        
+#*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-#
+  
+
     
 
 
