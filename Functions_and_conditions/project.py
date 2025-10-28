@@ -76,11 +76,26 @@ def letras(palabra):
         return True
     
 print(letras("HolaMundo"))
-
         
 #*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-#
   
 
+def grados(temp):
+      if temp < 15:
+         return "Cold"
+      elif 15 <= temp < 25:
+        return "Warm"
+      else:
+         return "Hot"
+
+print(grados(25))
+    
+
+
+
+    
+        
+    
     
 
 
