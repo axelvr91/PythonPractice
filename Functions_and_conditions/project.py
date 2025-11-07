@@ -89,7 +89,42 @@ def grados(temp):
          return "Hot"
 
 print(grados(25))
+
+#*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-#
+
+def weather_conditions(temperature):
+    if temperature>7:
+        return "Warm"
+    else:
+        return "Cold"   
+user_input= int(input("Enter the temperature: "))
+
+print("The weather is:",weather_conditions(user_input))
     
+#*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*#
+#String formatting#
+
+user_input= input("Enter your name: ")
+message= "Hello, {}! Welcome to the program.".format(user_input)
+print(message)
+
+#*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*#
+#string formatting with multiple variables#
+
+def persona(nombres_persona):
+    message="Hi {}".format(nombres_persona)
+    return message
+
+print(persona("carlos"))
+
+#*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*#
+def ptacticanombre(nombre):
+    message="Hi {}".format(nombre.capitalize())
+    return message
+print(ptacticanombre("carlos"))
+
+
+
 
 
 
