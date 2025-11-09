@@ -1,0 +1,2 @@
+Curiosamente no se puede mesclar el uso de grid(), pack(), place()
+esto es referente al contenedor
